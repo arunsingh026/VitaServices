@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEGO.CORE", "LEGO.CORE\LEGO.CORE.csproj", "{DC1F63F1-F71A-4987-8D6E-93EB4BF05AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEGO.ENTITY", "LEGO.ENTITY\LEGO.ENTITY.csproj", "{716F8BFB-95FF-45FE-90E9-FDFF7A9D0534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEGO.FDAL", "LEGO.FDAL\LEGO.FDAL.csproj", "{30BE5F71-3B17-4D15-AC67-4FD3ED821C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEGO.SERVICES", "LEGO.SERVICES\LEGO.SERVICES.csproj", "{D90BB11F-34A8-4FD0-9996-D649D1226233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC1F63F1-F71A-4987-8D6E-93EB4BF05AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1F63F1-F71A-4987-8D6E-93EB4BF05AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1F63F1-F71A-4987-8D6E-93EB4BF05AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1F63F1-F71A-4987-8D6E-93EB4BF05AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716F8BFB-95FF-45FE-90E9-FDFF7A9D0534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716F8BFB-95FF-45FE-90E9-FDFF7A9D0534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716F8BFB-95FF-45FE-90E9-FDFF7A9D0534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716F8BFB-95FF-45FE-90E9-FDFF7A9D0534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BE5F71-3B17-4D15-AC67-4FD3ED821C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BE5F71-3B17-4D15-AC67-4FD3ED821C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BE5F71-3B17-4D15-AC67-4FD3ED821C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BE5F71-3B17-4D15-AC67-4FD3ED821C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90BB11F-34A8-4FD0-9996-D649D1226233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90BB11F-34A8-4FD0-9996-D649D1226233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90BB11F-34A8-4FD0-9996-D649D1226233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90BB11F-34A8-4FD0-9996-D649D1226233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
