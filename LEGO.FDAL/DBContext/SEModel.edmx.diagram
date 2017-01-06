@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="51012d3e4f1141978227992747ae2bdf" Name="Diagram1">
+        <EntityTypeShape EntityType="SEModel.AccountGroup" Width="1.5" PointX="0.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Bill" Width="1.5" PointX="7.5" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.BillCharge" Width="1.5" PointX="7.5" PointY="53.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.BillReceipt" Width="1.5" PointX="9.75" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.BillReceive" Width="1.5" PointX="12.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.BillSetUp" Width="1.5" PointX="5.25" PointY="61.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.CommitteeMemberMapping" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.DebitCreditNote" Width="1.5" PointX="8.25" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.DebitCreditNoteEntry" Width="1.5" PointX="10.5" PointY="53" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Document" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Enquiry" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.EnquiryForService" Width="1.5" PointX="8" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Expense" Width="1.5" PointX="12.75" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Income" Width="1.5" PointX="7.5" PointY="57.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Invoice" Width="1.5" PointX="7.5" PointY="63.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.InvoicePayment" Width="1.5" PointX="9.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Journal" Width="1.5" PointX="5.25" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.JournalEntry" Width="1.5" PointX="7.5" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Ledger" Width="1.5" PointX="5.25" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Narration" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.OpeningBalance" Width="1.5" PointX="7.5" PointY="73" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.OpeningBankReco" Width="1.5" PointX="7.5" PointY="76.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Payment" Width="1.5" PointX="7.5" PointY="80.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Receipt" Width="1.5" PointX="7.5" PointY="85.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.RightsMapping" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.RightsType" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.ShoutBox" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.SocietyBase" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.SpecificAccount" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.SpecificGroup" Width="1.5" PointX="3" PointY="71.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Tenant" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.TransactionRow" Width="1.5" PointX="9.75" PointY="67" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Vehical" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.About" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Album" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Amenity" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Classified" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.CommentOnDiscussion" Width="1.5" PointX="11.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Committee" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.CommitteeEmployeeMapping" Width="1.5" PointX="6.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.ComplaintRespons" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.CoreDesignation" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.CoreMember" Width="1.5" PointX="8.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.CoreRight" Width="1.5" PointX="13.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.CoreSupport" Width="1.5" PointX="10.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.CoreUser" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.CoreVisitor" Width="1.5" PointX="12.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Dashboard" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.DashboardColumn" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Discussion" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Employee" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.EmployeeAgency" Width="1.5" PointX="15.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.EmployeeSalary" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Event" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.FamilyMemberDetail" Width="1.5" PointX="2.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Flat" Width="1.5" PointX="4.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Housekeepingstaff" Width="1.5" PointX="16.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.ImportantLink" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.InstrumentDetail" Width="1.5" PointX="16.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Law" Width="1.5" PointX="17.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Maintanance" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.ManageEmployee" Width="1.5" PointX="18.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.MemberAccount" Width="1.5" PointX="18.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Parking" Width="1.5" PointX="18.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.PaymentDetail" Width="1.5" PointX="18.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Poll" Width="1.5" PointX="19.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.PollingOption" Width="1.5" PointX="6.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Rfq" Width="1.5" PointX="8.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Society" Width="1.5" PointX="10.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.TrialBalance" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.UploadedFile" Width="1.5" PointX="20.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.UserRightMapping" Width="1.5" PointX="20.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Vote" Width="1.5" PointX="12.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SEModel.Wing" Width="1.5" PointX="20.75" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="SEModel.FK182C0A13406AAF15" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK182C0A13600B8C2F" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK739C760F47B54F28" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK739C760FC56136E9" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKDAAD830B406AAF15" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKDAAD830B600B8C2F" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKFD0BB31147B54F28" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKFD0BB311C56136E9" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1A928E47B83127E6" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK2A2EE704E6AFDAEC" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK47AAA7FC2CC9413F" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK47AAA7FC8EFD29F5" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK65507491B83127E6" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK85F8AA4B52F497FD" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK90C9A7A6E6AFDAEC" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK9837B646B83127E6" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK11A25D628EFD29F5" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK11A25D62A95F26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK7E7C466944AF282A" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK7E7C4669CDAA5178" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK9837B6469BB85F7D" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK2A2EE704FEEBA268" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK655074919BB85F7D" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK101BEDB96823D8A80" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK35C99074DF0E69370" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK463537F9FB9CD7A3" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKD8D1761DF0E69370" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKF69CF0556823D8A80" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK101BEDB921F6BD460" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK35C9907476C0F6990" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK463537F976C0F699" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKA6EE1B8351ED0A0D" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1A928E479D045F60" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1EAB895E6C1E6FB7" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1EAB895E703D7231" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1EAB895EC415AAA5" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK8A57CB12C43B34D0" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK8A57CB12CDC5B978" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK8A57CB12F5256668" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK90C9A7A6A867C4D0" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1A928E477B4F5F13" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK90C9A7A6CA42DA22" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKB0D9D2076DA24E14" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKB0D9D207B9564E4B" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKD1A6961D34368CD0" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKD1A6961D5EC4BB14" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1A928E47C415AAA5" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK51E7DED9D8532A97" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKDC608171B9187C1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKFED41D2C415AAA5" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKFED41D227A2EA21" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK101BEDB96823D8A8" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK35C99074DF0E6937" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKD8D1761DF0E6937" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKF69CF0556823D8A8" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK101BEDB921F6BD46" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK35C9907476C0F699" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK182C0A13BD5EFCB3" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1A928E478EFD29F5" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK6BA4BC72DDB7636B" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK6BA4BC72FDB28BC1" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK772C41F2CDAA5178" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK90C9A7A6CDAA5178" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK93A013D88EFD29F5" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKBBFD8D478EFD29F5" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKBBFD8D47A03EEC52" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKE9280AC9CDAA5178" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKE9280AC9CE18AB27" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKEE2653A87C84F7E3" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKEE2653A896393E04" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKF4FA0208678DCE05" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKFD0BB3115CFFA5DE" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1A928E474AE18DAB" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1A928E4727A2EA21" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1A928E479BB85F7D" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK90C9A7A6FEEBA268" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK1941D65FEB95DD5F" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKD357F4B3F7925083" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FK167BD4FDEB95DD5F" ManuallyRouted="false" />
+        <AssociationConnector Association="SEModel.FKC5458315F7925083" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

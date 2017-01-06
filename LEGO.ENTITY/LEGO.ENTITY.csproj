@@ -41,10 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CoreMember.cs" />
-    <Compile Include="CoreUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TimeTracker.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LEGO.CORE\LEGO.CORE.csproj">

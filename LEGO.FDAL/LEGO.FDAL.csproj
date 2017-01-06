@@ -41,6 +41,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,11 +51,258 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBContext\DBContxt.cs" />
+    <Compile Include="DBContext\About.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\AccountGroup.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Album.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Amenity.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Bill.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\BillCharge.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\BillReceipt.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\BillReceive.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\BillSetUp.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Classified.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\CommentOnDiscussion.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Committee.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\CommitteeEmployeeMapping.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\CommitteeMemberMapping.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\ComplaintRespons.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\CoreDesignation.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\CoreMember.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\CoreRight.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\CoreSupport.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\CoreUser.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\CoreVisitor.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Dashboard.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\DashboardColumn.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\DebitCreditNote.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\DebitCreditNoteEntry.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Discussion.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Document.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Employee.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\EmployeeAgency.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\EmployeeSalary.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Enquiry.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\EnquiryForService.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Event.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Expense.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\FamilyMemberDetail.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Flat.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Housekeepingstaff.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\ImportantLink.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Income.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\InstrumentDetail.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Invoice.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\InvoicePayment.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Journal.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\JournalEntry.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Law.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Ledger.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Maintanance.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\ManageEmployee.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\MemberAccount.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Narration.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\OpeningBalance.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\OpeningBankReco.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Parking.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Payment.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\PaymentDetail.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Poll.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\PollingOption.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Receipt.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Rfq.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\RightsMapping.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\RightsType.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\SE.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SE.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\SE.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\SEModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SEModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\ShoutBox.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Society.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\SocietyBase.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\SpecificAccount.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\SpecificGroup.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Tenant.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\TransactionRow.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\TrialBalance.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\UploadedFile.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\UserRightMapping.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Vehical.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Vote.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBContext\Wing.cs">
+      <DependentUpon>SE.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\DBRepository.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DBContext\SE.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SE.Context.cs</LastGenOutput>
+      <DependentUpon>SEModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="DBContext\SE.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SE.cs</LastGenOutput>
+      <DependentUpon>SEModel.edmx</DependentUpon>
+    </Content>
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LEGO.CORE\LEGO.CORE.csproj">
       <Project>{dc1f63f1-f71a-4987-8d6e-93eb4bf05aac}</Project>
@@ -66,7 +315,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <EntityDeploy Include="DBContext\SEModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SEModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DBContext\SEModel.edmx.diagram">
+      <DependentUpon>SEModel.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

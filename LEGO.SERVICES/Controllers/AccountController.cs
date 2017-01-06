@@ -1,5 +1,5 @@
 ﻿using LEGO.CORE;
-using LEGO.ENTITY;
+using LEGO.FDAL.DBContext;
 using System;
 using System.Linq;
 using System.Web.Http;
@@ -45,18 +45,18 @@ namespace LEGO.SERVICES.Controllers
         [Route("Account/AllMember")]
         public IHttpActionResult GetALLUser()
         {
-            var allmembers = Repository.GetAll<CoreMember>().ToList();
+            var allmembers = Repository.GetAll<CoreUser>().ToList();
             return Ok(allmembers);
         }
 
-        [HttpGet]
-        [Route("Account/Getmember")]
-        public IHttpActionResult GetMember(Guid id)
-        {
-            var member = Repository.Get<CoreMember>(id);
-            return Ok(member);
+        //[HttpGet]
+        //[Route("Account/Getmember")]
+        //public IHttpActionResult GetMember(Guid id)
+        //{
+        //    var member = Repository.Get<CoreMember>(id);
+        //    return Ok(member);
 
-        }
+        //}
 
         [HttpPost]
         [Route("Account/Register")]

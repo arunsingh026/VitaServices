@@ -8,13 +8,22 @@ namespace LEGO.CORE
     {
         // define all the repository interface as generic types
 
-        IList<T> GetAll<T>() where T : class, IIdentifierObject;
-        IList<T> GetAll<T>(Expression<Func<T, bool>> expression) where T : class, IIdentifierObject;
+        //IList<T> GetAll<T>() where T : class, IIdentifierObject;
+        //IList<T> GetAll<T>(Expression<Func<T, bool>> expression) where T : class, IIdentifierObject;
+        ////IList<IIdentifierObject> GetAll(Type type);
+        //T Get<T>(Guid id) where T : class, IIdentifierObject;
+        //T Save<T>(T t) where T : class, IIdentifierObject;
+        //IList<T> Save<T>(IList<T> t) where T : class, IIdentifierObject;
+        //T Update<T>(T t) where T : class, IIdentifierObject;
+        //bool Delete<T>(T t) where T : class, IIdentifierObject;
+
+        IList<T> GetAll<T>() where T : class;
+        IList<T> GetAll<T>(Expression<Func<T, bool>> expression) where T : class;
         //IList<IIdentifierObject> GetAll(Type type);
-        T Get<T>(Guid id) where T : class, IIdentifierObject;
-        T Save<T>(T t) where T : class, IIdentifierObject;
-        IList<T> Save<T>(IList<T> t) where T : class, IIdentifierObject;
-        T Update<T>(T t) where T : class, IIdentifierObject;
-        bool Delete<T>(T t) where T : class, IIdentifierObject;
+        //T Get<T>(Guid id) where T : class;
+        T Save<T>(T t) where T : class;
+        IList<T> Save<T>(IList<T> t) where T : class;
+        T Update<T>(T t) where T : class;
+        bool Delete<T>(T t) where T : class;
     }
 }

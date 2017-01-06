@@ -4,8 +4,6 @@ using LEGO.CORE;
 using LEGO.FDAL.DBContext;
 using System;
 using System.Linq.Expressions;
-using LEGO.ENTITY;
-using System.Text.RegularExpressions;
 
 namespace LEGO.FDAL.Repository
 {
@@ -14,17 +12,17 @@ namespace LEGO.FDAL.Repository
 
        
 
-        public IList<T> GetAll<T>() where T : class, IIdentifierObject
+        public IList<T> GetAll<T>() where T : class
         {
-            using (var contxt = new DBContxt())
+            using (var contxt = new SEEntities())
             {
                 return contxt.Set<T>().ToList<T>();
             }
         }
 
-        public IList<T> GetAll<T>(Expression<Func<T, bool>> expression) where T : class, IIdentifierObject
+        public IList<T> GetAll<T>(Expression<Func<T, bool>> expression) where T : class
         {
-            using (var contxt = new DBContxt())
+            using (var contxt = new SEEntities())
             {
                 var returnData = contxt.Set<T>().Where(expression).ToList<T>();
                 return returnData;
@@ -34,7 +32,7 @@ namespace LEGO.FDAL.Repository
 
         //public IList<IIdentifierObject> GetAll(Type type)
         //{
-        //    using (var contxt = new DBContxt())
+        //    using (var contxt = new SEEntities())
         //    {
         //        return contxt.Set(type).List<IIdentifierObject>();
                 
@@ -42,19 +40,19 @@ namespace LEGO.FDAL.Repository
         
         //}
 
-        public T Get<T>(Guid id) where T : class, IIdentifierObject
-        {
-            using (var contxt = new DBContxt())
-            {
-                return contxt.Set<T>().Where(x => x.Id == id).FirstOrDefault();
+        //public T Get<T>(Guid id) where T : class
+        //{
+        //    using (var contxt = new SEEntities())
+        //    {
+        //        return contxt.Set<T>().Where(x => x == id).FirstOrDefault();
 
-            }
+        //    }
           
-        }
+        //}
 
-        public T Save<T>(T t) where T : class, IIdentifierObject
+        public T Save<T>(T t) where T : class
         {
-            using (var contxt = new DBContxt())
+            using (var contxt = new SEEntities())
             {
                 using (var tran = contxt.Database.BeginTransaction())
                 {
@@ -77,9 +75,9 @@ namespace LEGO.FDAL.Repository
           
         }
 
-        public IList<T> Save<T>(IList<T> t) where T : class, IIdentifierObject
+        public IList<T> Save<T>(IList<T> t) where T : class
         {
-            using (var contxt = new DBContxt())
+            using (var contxt = new SEEntities())
             {
                 using (var tran = contxt.Database.BeginTransaction())
                 {
@@ -107,9 +105,9 @@ namespace LEGO.FDAL.Repository
           
         }
 
-        public T Update<T>(T t) where T : class, IIdentifierObject
+        public T Update<T>(T t) where T : class
         {
-            using (var contxt = new DBContxt())
+            using (var contxt = new SEEntities())
             {
                 using (var tran = contxt.Database.BeginTransaction())
                 {
@@ -129,9 +127,9 @@ namespace LEGO.FDAL.Repository
            
         }
 
-        public bool Delete<T>(T t) where T : class, IIdentifierObject
+        public bool Delete<T>(T t) where T : class
         {
-            using (var contxt = new DBContxt())
+            using (var contxt = new SEEntities())
             {
                 using (var tran = contxt.Database.BeginTransaction())
                 {
@@ -156,7 +154,7 @@ namespace LEGO.FDAL.Repository
         public bool ValidateUser(string useremail, string password)
         {
 
-            using (var contxt = new DBContxt())
+            using (var contxt = new SEEntities())
             {
                 try
                 {
